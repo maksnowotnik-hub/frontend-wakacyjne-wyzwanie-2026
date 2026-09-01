@@ -1,6 +1,11 @@
 import { UserProfileList } from "../components/UserProfilesList";
 
-export default function Home() {
+export default async function Home() {
+
+  //await new Promise(resolve => setTimeout(resolve, 2000));
+
+  //throw new Error("Mój testowy błąd");
+
   return (
     <main className="min-h-screen flex flex-col justify-between items-center mx-auto max-w-5xl p-8 text-center">
       <header>
