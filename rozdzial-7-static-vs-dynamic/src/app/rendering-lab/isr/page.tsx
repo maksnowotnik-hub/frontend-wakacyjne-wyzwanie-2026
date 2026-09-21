@@ -1,3 +1,5 @@
+export const revalidate = 10;
+
 import { CurrentTimeCard } from "@/components/current-time-card";
 
 // TODO: Dodaj revalidate = 10 i obserwuj stale-while-revalidate.

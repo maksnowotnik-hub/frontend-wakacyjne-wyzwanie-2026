@@ -5,6 +5,12 @@ import { ProductEmptyState } from "@/components/product-empty-state";
 import { ProductGrid } from "@/components/product-grid";
 import { searchProducts } from "@/lib/products";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  robots: { index: false }
+};
+
 interface SearchPageProps {
   searchParams: Promise<{ q?: string }>;
 }
